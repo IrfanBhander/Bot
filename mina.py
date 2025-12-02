@@ -21,7 +21,7 @@ from telegram.ext import (
 # ---------------------------------------------------------
 # CONFIGURATION
 # ---------------------------------------------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8538346886:AAGh0DZILV9EHoYS2w16ej_lrXMt4k3AO_c")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8250676956:AAFDai-LuCrY8yPfxFprlkOGbxuBAJObddw")
 FIREBASE_CRED_PATH = "serviceAccountKey.json"
 FIREBASE_ENV_VAR = "FIREBASE_SERVICE_ACCOUNT"
 
@@ -293,4 +293,5 @@ if __name__ == '__main__':
     app.add_handler(MessageHandler(filters.TEXT & (~filters.COMMAND), generate_qr))
 
     print("Ultimate Bot Running...")
+
     app.run_polling()
