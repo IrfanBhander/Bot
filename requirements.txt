@@ -1,0 +1,6 @@
+python-telegram-bot>=21.4
+firebase-admin==6.4.0
+google-cloud-firestore>=2.13.0
+bcrypt==4.1.2
+qrcode
+pillow
